@@ -1,0 +1,24 @@
+[project]
+name = "titiler-agol"
+description = "titiler application with an extra endpoint to support WMTS in ArcGIS Online"
+readme = { file = "README.md", content-type = "text/markdown" }
+license = { text = "Apache-2.0" }
+version = "0.1.0"
+authors = [{ name = "Pete Gadomski", email = "pete.gadomski@gmail.com" }]
+keywords = ["raster", "geospatial", "esri"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = ["titiler==0.18.1", "magnum==18.0.0"]
+
+[project.urls]
+Repository = "https://github.com/gadomski/titiler-agol"
+Issues = "https://github.com/gadomski/titiler-agol/issues"
+Changelog = "https://github.com/gadomski/titiler-agol/blob/main/CHANGELOG.md"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
